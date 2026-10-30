@@ -1,0 +1,25 @@
+{
+    "queues": [
+        {
+            "displayName": "Ticketing",
+            "name": "ticketing",
+            "mode": "Queue",
+            "queueServer": "apple.queue-fair.net",
+            "adapterServer": "apple.queue-fair.net",
+            "passedLifetimeMinutes": "60",
+            "dynamicTarget": "full",
+            "secret": "3yckk21qyx08j909",
+            "activation": {
+                "rules": [
+                    {
+                        "component": "Domain",
+                        "match": "Contain",
+                        "value": "adl26",
+                        "caseSensitive": false,
+                        "negate": false
+                    }
+                ]
+            }
+        }
+    ]
+}
